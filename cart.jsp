@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Shopping Cart</title>
+  <title>Cart</title>
   <link rel="stylesheet" href="css/style1.css">
 <style>
 
