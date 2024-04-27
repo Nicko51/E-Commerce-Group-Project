@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Green Supermarket</title>
+  <title>Laka Computers</title>
   <style>
     body {
         font-family: 'Poppins';
@@ -407,7 +407,7 @@ navx img{
           <a href="#">Contact Us</a>
         </p>
 
-        <p class="footer-company-name">Green Supermarket © 2023</p>
+        <p class="footer-company-name">Green Supermarket ï¿½ 2023</p>
       </div>
 
       <div class="footer-center">
