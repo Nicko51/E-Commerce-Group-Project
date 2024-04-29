@@ -757,8 +757,8 @@ navx img{
       <div class="footer-right">
 
         <p class="footer-company-about">
-          <span>About the company</span>
-          "Welcome to our green supermarket! We're committed to sustainability, offering a wide range of organic produce, locally-sourced goods, eco-friendly household items, and reusable products. Our goal is to empower mindful consumers by providing a diverse selection of environmentally-conscious options for a greener, healthier lifestyle."
+          <span>Who we are</span>
+          "Step into our eco-conscious market! We're dedicated to sustainability, presenting a diverse array of organic foods, locally-crafted goods, earth-friendly household essentials, and reusable alternatives. Our mission is to inspire mindful living, offering a vibrant selection of environmentally-aware choices for a healthier planet and lifestyle."
         </p>
 
 
