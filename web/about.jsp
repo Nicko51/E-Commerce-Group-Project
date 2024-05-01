@@ -1,5 +1,9 @@
 
 
+
+
+
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -37,7 +41,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	});
 </script>
 <!-- start-smoth-scrolling -->
-
 </head>
 
 <body>
@@ -85,6 +88,7 @@ if(typeof _bsa !== 'undefined' && _bsa) {
      ga('send', 'pageview');
    </script>
 <script async src='../../../../../../js/autotrack.js'></script>
+
 <meta name="robots" content="noindex">
 <body><link rel="stylesheet" href="../../../../../../assests/css/font-awesome.min.css">
 <!-- New toolbar-->
@@ -269,7 +273,6 @@ RIGHT SIDEBAR TOGGLE SECTION
 		</div>
 		<div class="clearfix"> </div>
 	</div>
-
 <!-- //script-for sticky-nav -->
 	<script>
 	$(document).ready(function() {
@@ -525,7 +528,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 						</div>
 					</div>
 						<script src="js/jquery.wmuSlider.js"></script>
-					<script>
+						<script>
 						$('.example1').wmuSlider();
 					</script>
 				</div>
@@ -673,7 +676,9 @@ $(document).ready(function(){
 			}
 		});
 
-	</script>
+</script>
+
+
 <div id = "v-w3layouts"></div><script>(function(v,d,o,ai){ai=d.createElement('script');ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, '../../../../../../../a.vdo.ai/core/v-w3layouts/vdo.ai.js');</script>
 	</body>
 
