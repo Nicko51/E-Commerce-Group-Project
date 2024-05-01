@@ -95,7 +95,16 @@
                         <div class="panel panel-info">
                             <div class="panel-heading">Add Product</div>
                             <div class="panel-body">
-                               
+                               <div class="form-group">
+                                        <label>Enter Name</label> <input class="form-control" type="text" name="pname" required />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Price</label> <input class="form-control" type="number" name="price" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Description</label> <input class="form-control" type="text" style="min-height: 100px;" name="description" required/>
+                                    </div>
+                                    </form>
                             </div>
                         </div>
                     </div>
