@@ -39,7 +39,50 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 
 <body>
+<script src="../../../../../../../m.servedby-buysellads.com/monetization.js" type="text/javascript"></script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=UA-149859901-1'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'UA-149859901-1');
+</script>
+
+<script>
+     window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+     ga('create', 'UA-149859901-1', 'demo.w3layouts.com');
+     ga('require', 'eventTracker');
+     ga('require', 'outboundLinkTracker');
+     ga('require', 'urlChangeTracker');
+     ga('send', 'pageview');
+   </script>
+<script async src='../../../../../../js/autotrack.js'></script>
 
 <meta name="robots" content="noindex">
 <body><link rel="stylesheet" href="../../../../../../assests/css/font-awesome.min.css">
