@@ -1,9 +1,3 @@
-<%-- 
-    Document   : drinks
-    Created on : 15 Dec 2023, 23:51:42
-    Author     : manju
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
