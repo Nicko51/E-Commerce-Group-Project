@@ -2,7 +2,7 @@
 html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
-	background:#ffffff;
+	background:#cee3cb;
 }
 ul li,ol li{
 	font-size:14px;
@@ -35,8 +35,8 @@ span.glyphicon.glyphicon-shopping-cart.my-cart-icon.my-cart-icon-affix {
 }
 .btn-danger {
     color: #fff;
-    background-color: #FA1818;
-    border-color: #FA1818;
+    background-color: #fb8d31;
+    border-color: #cc8704;
 }
 .modal-dialog {
     width: 850px;
@@ -47,7 +47,7 @@ span.glyphicon.glyphicon-shopping-cart.my-cart-icon.my-cart-icon-affix {
     text-align: center;
 }
 .my-cart-icon-affix i {
-    background: #84C639 !important;
+    background: #39c6bd !important;
 }
 .agile_top_brand_left_grid {
     position: relative;
@@ -55,7 +55,7 @@ span.glyphicon.glyphicon-shopping-cart.my-cart-icon.my-cart-icon-affix {
 }
 i.badge.badge-notify.my-cart-badge {
     font-style: normal;
-    background: #FA1818;
+    background: #f12be2;
     font-size: 14px;
     position: absolute;
     top: -10px;
@@ -74,7 +74,7 @@ input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input
 	-ms-transition: .5s ease-in;
 }
 .agileits_header{
-	background:#212121;
+	background:#031049;
 }
 .w3l_offers{
 	float:left;
@@ -84,7 +84,7 @@ input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input
     color: #fff;
     text-decoration: none;
     padding: .5em 3em;
-    background: #84C639;
+    background: #1d39f8;
 	display:block;
 }
 .w3l_search{
@@ -108,7 +108,7 @@ input[type="submit"],#PPMiniCart .minicart-submit,.w3ls_vegetables ul li a,input
     width: 15%;
     border: 1px solid;
     position: relative;
-    background: #FA1818;
+    background: #fa4818;
 }
 .w3l_search input[type="submit"]:hover{
     background: #84C639;
@@ -287,7 +287,7 @@ ul.dropdown-menu.drp-mnu li a i {
     text-decoration: none;
 }
 .w3ls_vegetables ul li a:hover{
-	color:#FA1818;
+	color:#fa7618;
 }
 .w3l_banner_nav_right_banner1,.w3l_banner_nav_right_banner,.w3l_banner_nav_right_banner2{
 	min-height:500px;
@@ -362,7 +362,7 @@ ul.dropdown-menu.drp-mnu li a i {
 }
 .button--saqui.button--inverted {
 	background: #fff;
-	color: #37474f;
+	color: #3a374f;
 }
 .button--saqui::after {
 	content: attr(data-text);
@@ -389,12 +389,12 @@ ul.dropdown-menu.drp-mnu li a i {
 	transition-timing-function: ease-out;
 }
 .button--saqui:hover {
-	background-color: #FA1818;
-	color: #656060;
+	background-color: #fa6d18;
+	color: #646560;
 }
 .button--saqui.button--inverted:hover {
-	background-color: #3f51b5;
-	color: #3f51b5;
+	background-color: #5b3fb5;
+	color: #5f3fb5;
 }
 .button--saqui:hover::after {
 	-webkit-transform: rotate3d(0, 0, 1, 0deg);
@@ -452,7 +452,7 @@ ul.dropdown-menu.drp-mnu li a i {
     padding-left: 7em;
 }
 .wthree_banner_btm_pos h3 i{
-	color: #FA1818;
+	color: #fa6318;
     font-weight: 600;
     text-transform: uppercase;
     font-style: normal;
@@ -585,7 +585,7 @@ ul.dropdown-menu.drp-mnu li a i {
     width: 548px !important;
 }
 #PPMiniCart .minicart-item a {
-    color: #212121 !important;
+    color: #2b2a28 !important;
     font-size: 1em;
     display: block;
     margin-bottom: .5em;
@@ -651,7 +651,7 @@ ul.dropdown-menu.drp-mnu li a i {
     width: 95.5%;
     padding: 15px 10px;
     font-size: 14px;
-    color: #212121;
+    color: #2c2929;
     background: #fff;
     border: 1px solid #e7e7e7;
     margin-bottom: 25px;
@@ -730,14 +730,14 @@ img.pp-img {
     width: 65%;
 }
 .tab-grid p {
-    color: #8B8B8B;
+    color: #918e8b;
     font-size: 0.95em;
     line-height: 1.8em;
     font-weight: 400;
     margin: 10px 0;
 }
 a.btn.btn-primary {
-    background-color: #3a5795;
+    background-color: #435d96;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     border: none;
@@ -746,7 +746,7 @@ a.btn.btn-primary {
 
 
 .vertical_post h5 {
-    color: #212121;
+    color: #282424;
     font-size: 18px;
     margin: 0 0 18px 0;
     letter-spacing: 1px;
@@ -754,7 +754,7 @@ a.btn.btn-primary {
 
 .swit-radio label {
     font-size: 16px;
-    color: #696969;
+    color: #716f68;
     padding: 0px 0 0 10px;
     font-weight: 100;
 }
@@ -765,7 +765,7 @@ a.btn.btn-primary {
 .radio_one {
     padding-left: 22px;
     line-height: 28px;
-    color: #404040;
+    color: #4f4949;
     cursor: pointer;
 }
 .radio_one {
@@ -834,7 +834,7 @@ a.btn.btn-primary {
 .btn-primary {
     color: #fff;
     background-color: #84c639;
-    border-color: #84c639;
+    border-color:#584e4e;
     border-radius: 0;
 }
 button.submit.check_out{
@@ -905,7 +905,7 @@ button.submit.check_out{
 .w3l_fresh_vegetables_grids{
 	margin:3em 0 0;
 	padding:1em 0em 1em 1em;
-	background:#f5f5f5;
+	background:#f8f5f5;
 }
 .w3l_fresh_vegetables_grid{
 	padding-left:0;
@@ -921,7 +921,7 @@ button.submit.check_out{
 .w3l_fresh_vegetables_grid ul li a{
 	font-size:14px;
 	text-transform:uppercase;
-	color:#212121;
+	color:#251f1f;
 	text-decoration:none;
 }
 .w3l_fresh_vegetables_grid ul li a:hover{
@@ -1005,7 +1005,7 @@ button.submit.check_out{
 /*-- newsletter --*/
 .newsletter{
 	padding:3em 0;
-	background:#FA1818;
+	background:#fa7f18;
 }
 .w3agile_newsletter_left{
 	float: left;
