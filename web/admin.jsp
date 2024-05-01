@@ -1,8 +1,4 @@
-<%-- 
-    Document   : AdminPanel
-    Created on : 16 Dec 2023, 01:23:50
-    Author     : manju
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
