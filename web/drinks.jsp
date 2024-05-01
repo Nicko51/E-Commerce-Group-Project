@@ -280,6 +280,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 		 });
 
 	});
+	</script>
 <!-- //script-for sticky-nav -->
 	<div class="logo_products">
 		<div class="container">
@@ -844,10 +845,134 @@ RIGHT SIDEBAR TOGGLE SECTION
 	</div>
 <!-- //newsletter -->
 <!-- footer -->
-	
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-3 w3_footer_grid">
+				<h3>information</h3>
+				<ul class="w3_footer_grid_list">
+					<li><a href="events.jsp">Events</a></li>
+					<li><a href="about.jsp">About Us</a></li>
+					<li><a href="products.jsp">Best Deals</a></li>
+					<li><a href="services.jsp">Services</a></li>
+					<li><a href="reserved.jsp">Reserved</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<h3>policy info</h3>
+				<ul class="w3_footer_grid_list">
+					<li><a href="faqs.jsp">FAQ</a></li>
+					<li><a href="privacy.jsp">privacy policy</a></li>
+					<li><a href="privacy.jsp">terms of use</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<h3>what in stores</h3>
+				<ul class="w3_footer_grid_list">
+					<li><a href="pet.jsp">Pet Food</a></li>
+					<li><a href="frozen.jsp">Frozen Snacks</a></li>
+					<li><a href="kitchen.jsp">Kitchen</a></li>
+					<li><a href="products.jsp">Branded Foods</a></li>
+					<li><a href="household.jsp">Households</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 w3_footer_grid">
+				<h3>twitter posts</h3>
+				<ul class="w3_footer_grid_list1">
+					<li><label class="fa fa-twitter" aria-hidden="true"></label><i>5 days ago</i><span>Lorem Ipsum
+						is simply dummy text of the printing and typesetting industry
+						<a href="https://www.youtube.com/channel/UCiC5-n85_UzJs7C1FvFl-fg/videos">Jimdel-Edu</a>Lorem Ipsum.</span></li>
+					<li><label class="fa fa-twitter" aria-hidden="true"></label><i>15 days ago</i><span>Lorem Ipsum
+						is simply dummy text of the printing and typesetting industry
+						<a href="https://www.youtube.com/channel/UCiC5-n85_UzJs7C1FvFl-fg/videos">Jimdel-Edu</a>Lorem Ipsum</span></li>
+				</ul>
+			</div>
+
+			<div class="clearfix"> </div>
+			<div class="agile_footer_grids">
+				<div class="col-md-3 w3_footer_grid agile_footer_grids_w3_footer">
+					<div class="w3_footer_grid_bottom">
+						<h4>100% secure payments</h4>
+						<img src="images/card.png" alt=" " class="img-responsive" />
+					</div>
+				</div>
+				<div class="col-md-3 w3_footer_grid agile_footer_grids_w3_footer">
+					<div class="w3_footer_grid_bottom">
+						<h5>connect with us</h5>
+						<ul class="agileits_social_icons">
+							<li><a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="google"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#" class="dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="wthree_footer_copy">
+				<p>© 2022 Grocery Store. All rights reserved|<a href="https://www.youtube.com/channel/UCiC5-n85_UzJs7C1FvFl-fg/videos">Jimdel-Edu</a></p>
+			</div>
+		</div>
+	</div>
 <!-- //footer -->
 <!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');
+        }
+    );
+});
+</script>
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
 
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+<script src="js/minicart.js"></script>
+<script>
+		paypal.minicart.render();
+
+		paypal.minicart.cart.on('checkout', function (evt) {
+			var items = this.items(),
+				len = items.length,
+				total = 0,
+				i;
+
+			// Count the number of each item in the cart
+			for (i = 0; i < len; i++) {
+				total += items[i].get('quantity');
+			}
+
+			if (total < 3) {
+				alert('The minimum order quantity is 3. Please add more to your shopping cart before checking out');
+				evt.preventDefault();
+			}
+		});
+
+	</script>
+
+
+<div id = "v-w3layouts"></div><script>(function(v,d,o,ai){ai=d.createElement('script');ai.defer=true;ai.async=true;ai.src=v.location.protocol+o;d.head.appendChild(ai);})(window, document, '../../../../../../../a.vdo.ai/core/v-w3layouts/vdo.ai.js');</script>
 
 	</body>
 
