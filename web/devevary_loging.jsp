@@ -34,6 +34,29 @@
         </ul>
         <!-- ... (existing navigation code) ... -->
     </nav>
+
+    <!-- Delivery Login Section -->
+    <div class="banner">
+        <div class="w3l_banner_nav_right">
+            <div class="w3_login">
+                <h3>Delivery Personnel Login</h3>
+                <div class="w3_login_module">
+                    <div class="module form-module">
+                        <div class="form">
+                            <h2>Login to your delivery account</h2>
+                            <form action="#" method="post">
+                                <input type="text" name="DeliveryUsername" placeholder="Username" required=" ">
+                                <input type="password" name="DeliveryPassword" placeholder="Password" required=" ">
+                                <input type="submit" value="Login">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+
 </body>
 
 </html>
