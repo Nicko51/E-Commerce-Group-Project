@@ -104,6 +104,18 @@
                                     <div class="form-group">
                                         <label>Description</label> <input class="form-control" type="text" style="min-height: 100px;" name="description" required/>
                                     </div>
+
+                                    <div class="form-group">
+                                        <label>MRP Price</label> <input class="form-control" type="number" name="mprice" required/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Status</label> 
+                                    <select class="form-control" name="status" required>
+                                            <option>Active</option>
+                                            <option>In-Active</option>
+                                    </select>
+                                    </div>
+
                                     </form>
                             </div>
                         </div>
