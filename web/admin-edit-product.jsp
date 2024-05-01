@@ -19,13 +19,13 @@
                         <div class="col-md-12">
                             <div class="panel panel-info">
                                 <div class="panel-heading">Edit Product</div>
-
-                        
-                                
-
-
-
-
+                            <%
+                                //Getting input from the admin
+                                int id = Integer.parseInt(request.getParameter("id"));
+                                //Querying to database
+                                ResultSet updateResult = DatabaseConnection.getResultFromSqlQuery("select * from tblproduct where id='" + id + "' ");
+                                while (updateResult.next()) {
+                            %>
                                     <div class="panel-body">
                                     <form role="form" action="admin-edit-product-process.jsp"
                                       method="post">
@@ -53,13 +53,14 @@
                                     <button type="submit" class="btn btn-success">Update Product</button>
                                 </form>
 
+                                      <%
+                                }
+                            %>
                             </div>
-
-                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
-
-    </body>
+</body>
 </html>
