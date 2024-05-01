@@ -23,7 +23,17 @@
 </head>
 
 <body>
-    
+    <!-- ... (existing code for the toolbar, header, and other sections) ... -->
+
+    <!-- Navigation Section -->
+    <nav class="navbar nav_bottom">
+        <!-- ... (existing navigation code) ... -->
+        <ul class="nav navbar-nav nav_1">
+            <!-- ... (existing navigation links) ... -->
+            <li><a href="delivery-login.html">Delivery Login</a></li>
+        </ul>
+        <!-- ... (existing navigation code) ... -->
+    </nav>
 </body>
 
 </html>
