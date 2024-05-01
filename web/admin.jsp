@@ -112,7 +112,18 @@
                                     </select>
                                     </div>
 
+                                    <div class="form-group">
+                                        <label>Product Category</label> <input class="form-control" type="text" name="category" required/>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Attach Product Image</label> <input type="file" name="uploadLogo" required/>
+                                    </div>
+
+                                    <button type="submit" class="btn btn-success" onclick="return confirm('Are you sure Do you want to add this product?');">Add Product</button>
+                                    <button type="reset" class="btn btn-danger">Reset</button>
                                     </form>
+
                             </div>
                         </div>
                     </div>
