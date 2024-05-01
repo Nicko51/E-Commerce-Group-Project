@@ -53,5 +53,23 @@
             </ul>
         </div>
     </nav>
+    <section class="dashboard">
+        
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Delivery Details</span>
+                </div>
+                <div class="form">
+                    <form action="#" method="get">
+                        ##
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
