@@ -1,9 +1,3 @@
-<%-- 
-    Document   : bread
-    Created on : 15 Dec 2023, 23:49:21
-    Author     : manju
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
