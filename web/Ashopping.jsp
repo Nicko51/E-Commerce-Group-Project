@@ -67,6 +67,82 @@
             </li>
             </ul>
         </div>
-    </nav>   
+    </nav> 
+
+    <section class="dashboard">
+        
+        <div class="dash-content">
+            <div class="overview">
+                <div class="title">
+                    <i class="uil uil-tachometer-fast-alt"></i>
+                    <span class="text">Shopping Details</span>
+                </div>
+                <div class="form">
+                    <form action="#" method="get">
+                        <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="panel panel-success">
+                                <div class="panel-heading">View Products</div>
+                                <div class="panel-body">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped table-bordered table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Name</th>
+                                                    <th>Image</th>
+                                                    <th>Description</th>
+                                                    <th>MRP(Rs)</th>
+                                                    <th>Price (Rs)</th>
+                                                    <th>Date</th>
+                                                    <th>Status</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                       <% 
+   try {
+      ResultSet rs = DatabaseConnection.getResultFromSqlQuery("select * from tblproduct");
+      while (rs.next()) {
+         // Process ResultSet data
+      }
+   } catch (SQLException e) {
+      e.printStackTrace(); // Log or print the exception for debugging
+   }
+%>
+
+                                        <tbody>
+                                            <tr>
+                                                <td><%=rs.getInt("id")%></td>
+                                                <td><%=rs.getString("name")%></td>
+                                                <td><image src="uploads/<%=rs.getString(7)%>"
+                                                           width="100" height="70"></image></td>
+                                                <td><%=rs.getString("description")%></td>
+                                                <td><del><%=rs.getString("mrp_price")%></del></td>
+                                                <td><%=rs.getString("price")%></td>
+                                                <td><%=rs.getString("create_date")%></td>
+                                                <td><%=rs.getString("active")%></td>
+                                                <td><a
+                                                        href="admin-edit-product.jsp?id=<%=rs.getInt("id")%>"
+                                                        class="btn btn-primary">Edit</a>|<a
+                                                        href="admin-delete-product.jsp?id=<%=rs.getInt("id")%>"
+                                                        class="btn btn-danger" onclick="return confirm('Are you sure Do you want to delete this product?');">Delete</a></td>
+                                            </tr>
+                                        </tbody>
+                                        <%
+                                            }
+                                        %>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
