@@ -57,6 +57,34 @@
         <div class="clearfix"></div>
     </div>
 
+    <!-- ... (existing code for the footer, newsletter, etc.) ... -->
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <div class="container">
+            <!-- ... (existing footer code) ... -->
+        </div>
+    </div>
+
+    <!-- ... (existing code for other scripts, such as scrolling icon, etc.) ... -->
+
+    <!-- Additional Script for Dropdown Hover Effect -->
+    <script>
+        $(document).ready(function () {
+            $(".dropdown").hover(
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                    $(this).toggleClass('open');
+                },
+                function () {
+                    $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                    $(this).toggleClass('open');
+                }
+            );
+        });
+    </script>
+    <!-- ... (other scripts) ... -->
+
 </body>
 
 </html>
