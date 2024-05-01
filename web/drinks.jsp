@@ -237,6 +237,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 		 });
 
 	});
+	</script>
 <!-- //script-for sticky-nav -->
 	<div class="logo_products">
 		<div class="container">
